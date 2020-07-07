@@ -26,6 +26,7 @@ end
 def return_string_array(array)
   count = 0 
   while count < array do
-  array.join("")
+ value = array.join("")
+  puts array
   end
 end 
